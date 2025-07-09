@@ -16,7 +16,7 @@ This library can work as a reference
 Tested with curves K-163, B-163, K-233, K-283 (Binary curves only! Prime curves not supported!)   
 
 Tested on desktop   
-Tested on ARM Cortex-M7 STM32F746 @ 180MHz:
+Tested on ARM Cortex-M7 STM32F746 @ 216MHz:
   - ~1.35KiB peak RAM usage with keys and calculations with 37 bytes allocated per GF(2) vector (e.g. with K-283)
   - ~1.15KiB peak RAM usage with keys and calculations with 32 bytes allocated per GF(2) vector (e.g. with K-233)
   - ~6.5KiB ROM use for debug build
